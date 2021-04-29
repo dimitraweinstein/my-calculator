@@ -23,6 +23,16 @@ header {
     text-align: center;
     background-color: mediumaquamarine;
     text-decoration: underline;
+    border: lightsalmon 2px solid;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+h3 {
+    font-weight: 200;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 section {
@@ -34,14 +44,25 @@ section {
 
 span {
     margin: 15px;
-    width: 50px;
+    width: 150px;
     height: 25px;
     background-color: lightgoldenrodyellow;
     text-align: center;
+    border: 1px black inset;
+    font-family: monospace;
+    font-size: large;
+    font-weight: 300;
 }
 
 button {
-    margin: 20px;;
+    margin: 20px;
+    width: 100px;
+    height: 25px;
+    background-color: mistyrose;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px auto;
 }
 
 div {
@@ -50,11 +71,19 @@ div {
 
 input {
     text-align: center;
+    border: black 1px inset;
+    background-color: rgb(176, 197, 235);
+    font-family: monospace;
+    font-size: large;
+    font-weight: 300;
 }
 
 .addition, .subtraction, .multiplication, .division {
     border: lightsalmon 2px solid;
     border-radius: 10px;
+    border: inset;
+    background-color: rgba(240, 233, 233, 0.632);
     padding: 30px;
     margin: 10px;
 }
+

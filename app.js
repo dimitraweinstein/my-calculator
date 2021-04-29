@@ -30,3 +30,32 @@ console.log(subnumber1);
     subResults.textContent = difference;
 })
 
+const multInputEl1 = document.getElementById('mult-input-el1');
+const multInputEl2 = document.getElementById('mult-input-el2');
+const multButton = document.getElementById('mult-button');
+const multResults = document.getElementById('mult-results');
+
+multButton.addEventListener ('click', () => {
+    const multnumber1 = multInputEl1.value;
+    const multnumber2 = multInputEl2.value;
+
+    const product = Number(multnumber1) * Number(multnumber2);
+console.log(multnumber1);
+
+    multResults.textContent = product;
+})
+
+const divInputEl1 = document.getElementById('division-input-el1');
+const divInputEl2 = document.getElementById('division-input-el2');
+const divButton = document.getElementById('division-button');
+const divResults = document.getElementById('division-results');
+
+divButton.addEventListener ('click', () => {
+    const divnumber1 = divInputEl1.value;
+    const divnumber2 = divInputEl2.value;
+
+    const quotient = Number(divnumber1) / Number(divnumber2);
+console.log(divnumber1);
+
+    divResults.textContent = quotient;
+})
